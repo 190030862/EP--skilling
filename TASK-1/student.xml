@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type="text/xsl" href="student.xsl"?>
+<Student >
+  <student id="a">
+    <no>123</no>
+    <name>saipriya</name>
+    <email>abc@c.c</email>
+    <marks>90</marks>
+    <class>cse</class>
+  </student>
+  <student id="b">
+    <no>456</no>
+    <name>sravya</name>
+    <email>fde@c.c</email>
+    <marks>96</marks>
+    <class>ece</class>
+  </student>
+  <student id="c">
+    <no>345</no>
+    <name>reshma</name>
+    <email>hkj@c.c</email>
+    <marks>89</marks>
+    <class>BBA</class>
+  </student>
+  <student id="d">
+    <no>576</no>
+    <name>sowjanya</name>
+    <email>pdc@c.c</email>
+    <marks>90</marks>
+    <class>EEE</class>
+  </student>
+  <student id="f">
+    <no>789</no>
+    <name>nandini</name>
+    <email>jku@c.c</email>
+    <marks>98</marks>
+    <class>cse</class>
+  </student>
+</Student>
