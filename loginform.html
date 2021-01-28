@@ -1,0 +1,55 @@
+<html>
+<head>
+<center>
+<script>
+function validation()
+{
+var user=document.f1.user.value;
+var password=document.f1.password.value;
+
+if(user==null||user=="")
+{
+alert("username should not be empty");
+return;
+}
+if(password==null||password=="")
+{
+alert("password should not be empty");
+return;
+}
+if(user.length<8)
+{
+alert("username should have min 8 characterstics");
+return;
+}
+if(password.length<8)
+{
+alert("password should have min 8 characterstics");
+return;
+}
+if(user==password)
+{
+alert("welcome with username");
+return;
+}
+
+
+}
+</script>
+</head>
+<body>
+<body background =" https://www.coreldraw.com/static/cdgs/images/pages/seo/tips/photo/basics/blur-background/blur-background-og.jpg"></body>
+<form name="f1" method="post" onsubmit="validation()">
+Username:<input type="text" name="user">
+
+<br></br>
+
+Password:<input type="password" name="password">
+
+<br></br>
+
+<input type="submit" value="login">
+</form>
+</body>
+</center>
+</html>
